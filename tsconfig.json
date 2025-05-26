@@ -10,7 +10,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "outDir": "dist",
-    "baseUrl": "./src"
+    "baseUrl": "./src",
+    "typeRoots": ["./node_modules/@types", "./src"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
